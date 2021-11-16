@@ -15,3 +15,5 @@ WORKDIR /app
 
 ADD sync.sh /app
 RUN chmod +x /app/sync.sh
+
+CMD /bin/sh -c /app/sync.sh

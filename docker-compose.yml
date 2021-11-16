@@ -15,7 +15,7 @@ services:
       - PARAMS=
 
     # command: ['tail', '-f', '/dev/null']
-    command: /bin/sh -c /app/sync.sh
+    # command: /bin/sh -c /app/sync.sh
 
   minio:
     image: minio/minio
