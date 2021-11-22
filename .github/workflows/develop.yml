@@ -3,9 +3,6 @@ name: Build S3 Migrator Develop
 on:
   push:
     branches: [develop]
-    paths:
-      - "./*"
-      - ".github/workflows/develop.yml"
   workflow_dispatch:
 jobs:
   PackagerDockerImage:
